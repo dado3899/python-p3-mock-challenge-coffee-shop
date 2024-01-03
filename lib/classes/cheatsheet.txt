@@ -1,0 +1,8 @@
+def get_<attribute>(self):
+    return self._<attribute>
+def set_<attribute>(self, value):
+    if(some validator):
+        self._<attribute> = value
+    else:
+        print("NOT VALID <attribute>")
+<attribute> = property(get_<attribute>,set_<attribute>)
