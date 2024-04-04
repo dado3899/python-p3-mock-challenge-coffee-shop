@@ -71,6 +71,8 @@ class Customer:
         pass
     
     def create_order(self, coffee, price):
+        # customer, coffee, price
+        return Order(self, coffee, price)
         pass
     
     @classmethod

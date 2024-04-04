@@ -1,3 +1,38 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object Relationship Methods
+return_list = []
+for <var> in <OBJECT>.all:
+    if <var>.<self> is self:
+        return_list.append(<var>)
+    return return_list
+
+# THESE ARE MY PROPERTIES
 def get_<attribute>(self):
     return self._<attribute>
 def set_<attribute>(self, value):
@@ -6,3 +41,5 @@ def set_<attribute>(self, value):
     else:
         print("NOT VALID <attribute>")
 <attribute> = property(get_<attribute>,set_<attribute>)
+
+example: https://github.com/dado3899/python-p3-mock-challenge-national-parks/tree/103023_solution
